@@ -1,14 +1,74 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
 <html>
+
 <head>
-    <title>Contact</title>
+    <title>Contact Me</title>
+    <link rel="stylesheet" type="text/css" href="./contactstyle.css">
 </head>
-    
+
 <body>
-    <h2>Contact-Coming Soon to You.</h2>
-    
+    <div class="bgwhite">
+        <div class="content">
+            <form action="/contact.php" method="POST">
+                <!-- defined action to be performed when form submitted !-->
+                <fieldset>
+                    <legend>Client Info</legend>
+                    First Name: <br />
+                    <input type="text" name="fname"><br /> Last Name: <br />
+                    <input type="text" name="lname"><br /> Email: <br />
+                    <input type="email" name="customerEmail"><br /> Occupation: <br />
+                    <input type="radio" name="occupation" value="Software Engineer" checked> Software Engineer <br />
+                    <input type="radio" name="occupation" value="Software Engineer in Test"> Software Engineer in Test <br />
+                    <input type="radio" name="occupation" value="Mobile Developer"> Mobile Developer <br />
+                    <input type="radio" name="occupation" value="Web Developer"> Web Developer <br />
+                    <textarea name="dreams" rows="30" columns="50">Enter your dreams here.</textarea> <br /> Birthday:
+                    <input type="data" name="dob"> <br /> <br />
+                    <input type="submit" value="Submit"> <br /> Upload Pictures:
+                    <input type="file" name="img" multiple> <br />
+                </fieldset>
+                <fieldset>
+                    <legend>School Info</legend>
+                    <select name="school">
+                    <option value="UCI">University of California, Irvine</option>
+                    <option value="UCLA" selected>University of California, Los Angeles</option>
+                    <option value="USC">University of Southern California</option>
+                </select>
+                </fieldset>
+                <fieldset>
+                    <legend>View Bilz Profile</legend>
+                    <button type="button" onClick="alert('We are just getting started\n          --Bilz')" value="BButton">BButton</button>
+                </fieldset>
+                <br />
+                <br />
+                <input type="reset">
+            </form>
+            <form action="city.php">
+                <input list="dreamCity" name="dreamcity">
+                <datalist id="cityofdreams">
+                    <option value="San Francisco">
+                    <option value="Los Angeles">
+                    <option value="London">
+                    <option value="Fayettevill">
+                    <option value="New York">
+                </datalist>
+                <input type="submit">
+            </form>
+            <form action="checkbox.php">
+                <input type="checkbox" name="vehicle1" value="BMW">BMW<br />
+                <input type="checkbox" name="vehicle2" value="Benz">Benz<br />
+                <input type="checkbox" name="vehicle3" value="Nissan">Nissan<br />
+            </form>
+
+            <form>
+                <fieldset>
+                    <legend>Slider Control</legend>
+                    Skill Level:
+                    <input type="range" name="skillLevel"> <br />
+                    <input type="submit" name="skillSubmit">
+                </fieldset>
+            </form>
+        </div>
+    </div>
 </body>
-    
-    
-    
+
 </html>

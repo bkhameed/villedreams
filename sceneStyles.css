@@ -1,0 +1,231 @@
+.fa {
+    color: white;
+    font-size: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+    
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration-color: none;
+    font-size: 25px;
+    color: silver;
+    display: block;
+    transition: 0.3s;
+}
+
+
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+body {
+font-family: 'Electrolize', sans-serif;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+* {
+font-family: 'Electrolize', sans-serif;
+}
+
+audio {
+    display: none;
+}
+
+.mySlides {
+    width: 100%;
+    height: 880px;
+    
+}
+
+.content {
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.navBar{
+    text-align: center;
+    top: 0;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.navbar {
+        margin-bottom: 0;
+    border-radius: 0;
+}
+
+#slogan {
+    font-size: 30px;
+    color: gold;
+}
+
+
+.navItems:hover {
+    color: silver;
+    text-decoration: blinks;
+    border: 4px solid white;
+    
+}
+
+.articleItems {
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 50px;
+}
+
+.articleItem {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.articleImage {
+    max-width: 100%;
+    height: 350px;
+    width: 350px;
+}
+
+.slides {
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.topLeft {
+    position: absolute;
+    right: 0px;
+    font-size: 20px;
+    color: gold;
+}
+
+.skyline {
+    position: static;
+    bottom: 0;
+    left: 0;
+    height: auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.footerbg {
+    margin-top: 127px;
+    width: 100%;
+    height: 50%;
+    background-image: url(./images/skyline.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    flex-wrap: nowrap;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.socialmedia {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.ixcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bgimg{
+    background-image: url("./images/jcolethum2.jpg");
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+font-family: 'Electrolize', sans-serif;
+    font-size: 25px;
+    
+}
+
+topLeft{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    
+}
+
+.middle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+}
+
+.bottomLeft{
+    position: absolute;
+    bottom: 0;
+    left: 16px;
+    
+}
+
+#enterBtn{
+    background-color: black;
+    border: 5px solid white;
+}
+
+#enterBtn:hover{
+    background-color: gold;
+}
+
+

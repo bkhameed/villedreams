@@ -1,0 +1,35 @@
+body{
+    background-color: gold;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.bgwhite{
+    margin: auto;
+    background-color: whitesmoke;
+    background-size: cover;
+    box-shadow: 0 8px 16px silver , 0 6px 20px 0 silver;    
+    box-sizing: border-box;
+    z-index: 2;
+    max-width: 900px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    font-family: "Courier New", Courier, monospace;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: center;
+    z-index: 3;
+
+}
