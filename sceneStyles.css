@@ -1,9 +1,8 @@
 .fa {
     color: white;
     font-size: 30px;
-    padding-left: 10px;
-    padding-top: 15px;
-    
+    padding-top: 8px;
+    padding-bottom: 2px;
 }
 .sidenav {
     height: 100%;
@@ -16,6 +15,28 @@
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
+}
+
+.left {
+    padding-left: 0;
+}
+
+.right {
+    padding-right: 0;
+}
+
+.noPadding {
+    padding: 0;
+}
+
+.pics {
+    height: 325px;
+    width: 650px;
+}
+
+.pics2 {
+    height: 400px;
+    width: 650px;
 }
 
 .sidenav a {
@@ -47,7 +68,7 @@
 }
 
 body {
-font-family: 'Electrolize', sans-serif;
+    font-family: 'Electrolize', sans-serif;
     text-align: center;
     background-color: white;
     color: black;
@@ -69,22 +90,17 @@ font-family: 'Electrolize', sans-serif;
 font-family: 'Electrolize', sans-serif;
 }
 
-audio {
-    display: none;
+
+.fullWidth {
+    width: 100%;
+    height: 750px;
 }
 
-.mySlides {
-    width: 100%;
-    height: 880px;
-    
+.col-sm-12 {
+    padding: 0;
 }
 
 .content {
-    padding: 4px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
     background-color: white;
 }
 
