@@ -147,8 +147,19 @@ ul {
     color: white;
     font-size: 30px;
     padding-left: 10px;
-    padding-top: 15px;
+    padding-top: 7px;
     
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+.removeSpace {
+    padding: 0 !important;
+    margin: 0 !important;
 }
 .sidenav {
     height: 100%;
@@ -222,6 +233,13 @@ audio {
     width: 100%;
     height: 880px;
     
+}
+
+@media (max-width: 768px) {
+    .mySlides {
+        width: 100%;
+        height: 440px;
+    }
 }
 
 .content {
@@ -307,11 +325,18 @@ audio {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
+    align-items: stretch;
     color: white;
-    flex-wrap: nowrap;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .footerbg {
+        width: 100%;
+        height: 25%;
+    }
 }
 
 .socialmedia {

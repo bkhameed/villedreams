@@ -1,9 +1,24 @@
 .fa {
     color: white;
     font-size: 30px;
-    padding-top: 8px;
-    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-top: 7px;
+    
 }
+
+
+.removeSpace {
+    padding-left: 0 !important;
+    margin-left: 0 !important;
+}
+
+.navbar-toggle {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -48,7 +63,10 @@
     transition: 0.3s;
 }
 
-
+.navbar-left {
+    margin-left: 0;
+    padding-left: 0;
+}
 
 .sidenav .closebtn {
     position: absolute;
@@ -74,27 +92,26 @@ body {
     color: black;
 }
 
-@media (min-width: 768px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-    }
 
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-}
 
 * {
 font-family: 'Electrolize', sans-serif;
 }
 
-
-.fullWidth {
+@media (min-width: 768px) {
+    .fullWidth {
     width: 100%;
     height: 750px;
 }
+}
+
+@media (max-width: 768xp) {
+       .fullWidth {
+    width: 100%;
+    height: 375px;
+}
+}
+
 
 .col-sm-12 {
     padding: 0;
@@ -109,11 +126,15 @@ font-family: 'Electrolize', sans-serif;
     top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 .navbar {
-        margin-bottom: 0;
+    margin-bottom: 0;
     border-radius: 0;
+      padding-left: 0;
+    margin-left: 0;
 }
 
 #slogan {
@@ -178,11 +199,18 @@ font-family: 'Electrolize', sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    align-items: center;
+    align-items: stretch;
     color: white;
-    flex-wrap: nowrap;
     margin-bottom: 0px;
     padding-bottom: 0px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .footerbg {
+        width: 100%;
+        height: 25%;
+    }
 }
 
 .socialmedia {

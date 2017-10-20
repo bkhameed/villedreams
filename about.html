@@ -1,32 +1,92 @@
 <DOCTYPE! html>
-<html>
-<head>
-    <title>About</title>
-    <link rel="stylesheet" type="text/css" href="about.css">
-</head>
-    
-<body>
-    <div class="about">
-        <br />
-        <br />
-        <div class="content">
-            <h1>About</h1>
-            <h2>Bilal Khalid Hameed</h2>
-            <ul>
-                <li>Grew up in Anaheim, California</li>
-                <li>Went to Western High School</li>
-                <li>Attended 3 different community colleges, including Fullerton College</li>
-                <li>Transferred to University of California, Irvine with a 4.00 GPA as a CS Major</li>
-                <li>Currently Holds a 3.89 GPA</li>
-                <li>Was a Software Engineer Intern at Ultra Mobile for Summer 2017</li>
-            </ul>
+    <html>
+
+    <head>
+        <title>About VilleDreams</title>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Personal Website of Bilal Hameed" />
+        <meta name="keywords" content="software engineer, college student, resume, career, personal website" />
+        <meta name="robots" content="nofollow" />
+        <meta http-equiv="author" content="Bilal Hameed" />
+        <link rel="shortcut icon" href="../images/cole6.jpg">
+        <link rel="icon" href="../images/cole6.jpg">
+        <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://sdk.amazonaws.com/js/aws-sdk-2.134.0.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Electrolize" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="about.css">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html" class="navItems">Home</a>
+            <a href="#" class="navItems">About</a>
+            <a href="scene.html" class="navItems">Scene</a>
         </div>
-        <br />
-        <br />
-    </div>
-    
-</body>
-    
-    
-    
-</html>
+
+
+
+        <div id="main">
+
+            <div class="navBar navbar navbar-inverse">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button onclick="openNav()" type="button" class="navbar-toggle" data-toggle="collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse removeSpace" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-left">
+                        <li> <i class="fa fa-bars" aria-hidden="true" onclick="openNav()"></i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row">
+                        <img src="./images/dreamvilleHeader.jpg" class="img-responsive" />
+                    </div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h2>Welcome to VilleDreams</h2>
+                            <h4>Established by Jermaine Cole, better known as J. Cole, the Grammy-nominated artist and producer. With a growing roster of talent the label is home to such artists as Bas, Omen, Cozz and brilliant producers like Cedric Brown, Ron Gilmore, Elite and more.</h4>
+                            <h4>We are the label of the connected age. The creators of stories. Keeping a pulse on our community while exploring new sounds, new visuals and new ways to authentically and genuinely connect with all people, around the world.</h4>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="./images/monogram.png" class="centered" />
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+
+
+    </html>
