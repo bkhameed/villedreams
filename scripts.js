@@ -1,5 +1,4 @@
 var myIndex = 0;
-            document.getElementsByClassName("main").style.display = "none";
 
             function carousel() {
                 var i;
@@ -17,12 +16,6 @@ var myIndex = 0;
                 } else {
                     setTimeout(carousel, 3000);
                 }
-            }
-
-            function nextPage() {
-                document.getElementById("main").style.display = "block";
-                carousel();
-                document.getElementById("entryPage").style.display = "none";
             }
             
             function openNav() {
