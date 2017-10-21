@@ -1,3 +1,20 @@
+@media (min-width: 768px) {
+    .fullWidth {
+    width: 100%;
+    height: 750px;
+}
+}
+
+@media (max-width: 768px) {
+       .fullWidth {
+    width: 100%;
+    height: 375px;
+}
+}
+
+
+
+
 .fa {
     color: white;
     font-size: 30px;
@@ -6,38 +23,26 @@
     
 }
 
+.headerImg {
+    padding: 0;
+}
+
 
 .removeSpace {
     padding-left: 0 !important;
     margin-left: 0 !important;
 }
 
+.removeSpace {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
 .navbar-toggle {
     position: absolute;
     top: 5px;
     left: 10px;
-}
-
-
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: black;
-    overflow-x: hidden;
-    padding-top: 60px;
-    transition: 0.5s;
-}
-
-.left {
-    padding-left: 0;
-}
-
-.right {
-    padding-right: 0;
 }
 
 .noPadding {
@@ -54,6 +59,20 @@
     width: 650px;
 }
 
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration-color: none;
@@ -63,10 +82,7 @@
     transition: 0.3s;
 }
 
-.navbar-left {
-    margin-left: 0;
-    padding-left: 0;
-}
+
 
 .sidenav .closebtn {
     position: absolute;
@@ -86,38 +102,55 @@
 }
 
 body {
-    font-family: 'Electrolize', sans-serif;
+font-family: 'Electrolize', sans-serif;
     text-align: center;
     background-color: white;
     color: black;
 }
 
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
 
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
 
 * {
 font-family: 'Electrolize', sans-serif;
 }
 
-@media (min-width: 768px) {
-    .fullWidth {
+audio {
+    display: none;
+}
+
+.mySlides {
     width: 100%;
-    height: 750px;
-}
-}
-
-@media (max-width: 768xp) {
-       .fullWidth {
-    width: 100%;
-    height: 375px;
-}
+    height: 880px;
+    
 }
 
-
-.col-sm-12 {
-    padding: 0;
+@media (max-width: 768px) {
+    .mySlides {
+        width: 100%;
+        height: 440px;
+    }
 }
 
 .content {
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.content-container {
     background-color: white;
 }
 
@@ -126,15 +159,11 @@ font-family: 'Electrolize', sans-serif;
     top: 0;
     padding-bottom: 0;
     margin-bottom: 0;
-    padding-left: 0;
-    margin-left: 0;
 }
 
 .navbar {
-    margin-bottom: 0;
+        margin-bottom: 0;
     border-radius: 0;
-      padding-left: 0;
-    margin-left: 0;
 }
 
 #slogan {
@@ -146,7 +175,7 @@ font-family: 'Electrolize', sans-serif;
 .navItems:hover {
     color: silver;
     text-decoration: blinks;
-    border: 4px solid white;
+    border: 1px solid white;
     
 }
 
@@ -165,7 +194,7 @@ font-family: 'Electrolize', sans-serif;
 .articleImage {
     max-width: 100%;
     height: 350px;
-    width: 350px;
+    width: 400px;
 }
 
 .slides {
@@ -265,11 +294,51 @@ topLeft{
 
 #enterBtn{
     background-color: black;
-    border: 5px solid white;
+    border: 1px solid white;
 }
 
 #enterBtn:hover{
     background-color: gold;
 }
+
+.header {
+    position: fixed;
+    width: 100%;
+    height: 80%;
+}
+
+
+@media (min-width: 786px) {
+    .content-about{
+        padding-top: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-about{
+        padding-top: 150px;
+    }
+}
+
+.about-title, .about-subTitle {
+    text-align: center;
+    
+}
+
+.centered {
+    display: block;
+    margin: auto;
+}
+
+
+@media (min-width: 1200px) {
+    .about-subTitle {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+
+
 
 
