@@ -1,6 +1,6 @@
 var myIndex = 0;
 
-            function carousel() {
+           window.onload =  function carousel() {
                 var i;
                 var x = document.getElementsByClassName("mySlides");
                 for (i = 0; i < x.length; i++) {
@@ -35,3 +35,10 @@ var myIndex = 0;
                 elem.setAttribute("class", "active navItems");
                 
             }
+
+
+function entryButton() {
+   var elem = document.getElementById("enterBtn");
+    elem.style.backgroundColor="black";
+    elem.style.color="white";
+}
